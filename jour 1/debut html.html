@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="racourci" href="./PK logo 1.png">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Accuil</li>
+            <li>Butique</li>
+            <li>
+                <a href="#form">Formulaire</a>
+            </li>
+        </ul>
+        <p>
+            salut <em>italique</em> <strong>pour le grand</strong>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum neque voluptatum voluptas excepturi porro
+            debitis ipsam architecto, ab dolores praesentium deleniti reprehenderit et molestiae quos aut iste ratione
+            dolor atque?
+        </p>
+        <main>
+            <section>
+                <h2>Orderd list</h2>
+                <ol>
+                    <li>Ceci est une list</li>
+                    <li>dans l'ordre</li>
+                    <li>l'ordre</li>
+                </ol>
+            </section>
+            <section>
+                <h3><span>►</span> Image en HTML</h3>
+                <img src="./back.jpg" height="200" alt="Image_section">
+                <div>
+                    <h4>Tableau</h4>
+                    <table border="4" cellpadding="10" cellspcing="4" style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th>col 1</th>
+                                <th>col 2</th>
+                                <th>col 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">Cell 1</td>
+                                <td>Cell 2</td>
+                                <td>Cell 3</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Cell 4</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h5><i>►</i>les liens</h5>
+                    <a href="https://htmlcheatsheet.com" target="_blank">html sheet</a>
+                </div>
+                <div>
+                    <h6><i>◄</i>videos</h6>
+                    <video src="video.mp4" height="200" autoplay muted loop></video>
+                </div>
+            </section>
+            <section id="form">
+                <h2>Les formulaires</h2>
+                <form action="">
+                    <!-- for et id permet de lier le label à input -->
+                    <!-- placeholder pour metre un text dans une zone de saici -->
+                    <label for="Name">Nom :</label>
+                    <input type="text" id="Name" placeholder="Entre votre Nom" />
+                    <br>
+                    <label for="age">Entre votre age :</label>
+                    <input type="number" id="age" value="18" />
+
+                    <br>
+                    <label for="gender">Genre</label>
+                    <select id="gender">
+                        <option value="Homme">Homme</option>
+                        <option selected="section">Femme</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+
+                    <br>
+
+                    <div>
+                        <input type="radio" name="type" id="Human" checked>
+                        <label for="Homme">Human</label>
+
+                        <input type="radio" name="type" id="dog">
+                        <label for="dog">chien</label>
+
+                        <input type="radio" name="type" id="cat">
+                        <label for="cat">chat</label>
+                    </div>
+                    <textarea placeholder="Votre message..." cols="20" rows="5"></textarea>
+
+                    <br>
+                    <input type="checkbox" name="" id="cgv">
+                    <label for="cgv">Accepter les contitions génerales</label>
+
+                    <br>
+
+                    <!-- submit c'est pour valude le formileur -->
+                    <input type="submit" value="button validage">
+
+                </form>
+                <button>Ceci est un botton</button>
+
+            </section>
+        </main>
+        <footer>
+
+            <a href="mailto:patientkaghovi@gmail.com">contactez moi !</a>
+            <a href="./notis.txt" download="Notice">telecharger la notice</a>
+
+        </footer>
+    </nav>
+
+</body>
+
+</html>
